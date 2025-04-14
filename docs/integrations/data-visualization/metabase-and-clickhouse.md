@@ -27,11 +27,11 @@ Metabase is an easy-to-use, open source UI tool for asking questions about your 
 :::tip
 Metabase Performance Considerations
 
-Metabase is a user-friendly tool that enables the creation of dashboards and reports without writing code, making it accessible to a wide range of users.
+Metabase is a graphical tool that enables the creation of dashboards and reports without writing code, making it accessible to a wide range of users.
 
-However, Metabase is implemented in [Clojure](https://en.wikipedia.org/wiki/Clojure) and makes extensive use of [Java reflection](https://blogs.oracle.com/javamagazine/post/java-reflection-performance), which can have implications for performance.
+Metabase is implemented in [Clojure](https://en.wikipedia.org/wiki/Clojure) and makes extensive use of [Java reflection](https://blogs.oracle.com/javamagazine/post/java-reflection-performance), which can have implications for performance.
 
-If you're using ClickHouse for its high-performance capabilities, it may be worth validating whether Metabase's performance characteristics align with your goals—particularly before committing significant time or resources to a full deployment.
+If you're using ClickHouse for its high-performance capabilities, it may be worth validating whether Metabase's performance characteristics align with your goals.
 :::
 
 ## Goal {#goal}
